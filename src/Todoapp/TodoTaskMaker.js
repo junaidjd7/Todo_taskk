@@ -13,10 +13,10 @@ function TodoTaskMaker() {
 
     const modal = { title: '', description: '', dropDownValues: '' }
 
-    const [state, setState] = useState(modal)
-    const [data, setData] = useState([])
-    const [searchInput, setsearchInput] = useState("");
-    const [filter, setfilter] = useState("");
+    // const [state, setState] = useState(modal)
+    // const [data, setData] = useState([])
+    // const [searchInput, setsearchInput] = useState("");
+    // const [filter, setfilter] = useState("");
 
     const [validation, setValidation] = useState({
         titleValidation: false,
