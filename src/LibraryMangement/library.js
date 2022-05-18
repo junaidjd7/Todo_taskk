@@ -4,10 +4,8 @@ import { data } from './data';
 const Library = () => {
 
     const [libraryData, setLibraryData] = useState(data);
-    const [filterData, setfilterData] = useState(data);
-    const [searchdata, setsearchdata] = useState('');
-
-    // const [searchInput, setsearchInput] = useState("");
+  
+  
     const [readers, setReaders] = useState([]);
     const [dates, setdates] = useState('');
 
