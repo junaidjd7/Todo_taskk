@@ -13,7 +13,7 @@ let b=updatedArray.splice(1,0,'mm','dd')
 }
 
 
-
+// 
   return (
       <div>
           <h1>ArrayMethod</h1>
