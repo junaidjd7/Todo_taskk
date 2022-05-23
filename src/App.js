@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import Library from './LibraryBooksMangement/library';
+import Library from './LibraryMangement/library';
+
 // import Home from './LibraryBooksMangement/Home';
 // import Currency from './CurrencyConverterCalulator/Currency';
 
@@ -9,7 +10,7 @@ import Library from './LibraryBooksMangement/library';
 // import { useState } from "react";
 // import './ExpenseTrackerapp/ExpenseTracker.css'
 // import AddTransaction from './ExpenseTrackerapp/AddTransaction';
-// import Balance from './ExpenseTrackerapp/Balance';
+// import Balance from './ExpenseTrackerapp/Balance'; 
 // import Header from './ExpenseTrackerapp/Header';
 // import IncomeExpenses from './ExpenseTrackerapp/IncomeExpenses';
 // import TransactionList from './ExpenseTrackerapp/TransactionList';

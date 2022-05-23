@@ -4,10 +4,11 @@ import { data } from './data';
 const Library = () => {
 
     const [libraryData, setLibraryData] = useState(data);
-  
-  
+    const [filterData, setfilterData] = useState(data);
+    const [searchdata, setsearchdata] = useState('');
+
     const [readers, setReaders] = useState([]);
-    const [dates, setdates] = useState('');
+    // const [dates, setdates] = useState('');
 
     const handleIssue = (id) => {
         let updatedarray = libraryData.filter((el) => {
@@ -18,7 +19,7 @@ const Library = () => {
             }
         });
         setLibraryData(updatedarray);
-
+        setfilterData(updatedarray);
     };
     const handleDate = (e, id) => {
         // console.log('e', e.target.value);
@@ -43,7 +44,7 @@ const Library = () => {
                 row.BookName.toUpperCase().includes(searchdata.toUpperCase())
             );
             setLibraryData(ab);
-            
+
         }
     };
     const handleSearchChange = (e) => {
@@ -69,7 +70,7 @@ const Library = () => {
                     className="btn btn-outline-success my-2 my-sm-0"
                     type="submit"
                     onClick={() => handleSearch()}
-                    >
+                >
                     Search
                 </button>
             </div>
